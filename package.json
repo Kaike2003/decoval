@@ -1,6 +1,6 @@
 {
   "name": "decoval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DecoVal is a decorator-driven validation pattern that allows you to add validation rules directly to the properties of TypeScript classes, simplifying data control and increasing code readability and reusability.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
