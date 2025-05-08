@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": false,
+    "declaration": true,
+    "target": "es6",
+    "experimentalDecorators": true,
+    "lib": ["ES6", "ESNext", "DOM", "DOM.Iterable", "ScriptHost"],
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "skipLibCheck": true,
+   
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.*"]
+}

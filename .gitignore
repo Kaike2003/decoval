@@ -1,0 +1,14 @@
+# Dependências do Node.js
+node_modules/
+
+# Diretórios de build e saída
+lib/
+dist/
+build/
+
+# Arquivos de lock do gerenciador de pacotes
+package-lock.json
+
+# Arquivos de logs
+npm-debug.log*
+

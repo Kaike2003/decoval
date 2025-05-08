@@ -1,0 +1,54 @@
+{
+  "name": "decoval",
+  "version": "1.0.0",
+  "description": "DecoVal is a decorator-driven validation pattern that allows you to add validation rules directly to the properties of TypeScript classes, simplifying data control and increasing code readability and reusability.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "ts-types": "tsc",
+    "build": "rimraf lib && pnpm ts-types && node ./esbuild.js"
+  },
+  "keywords": [
+    "decoval",
+    "typescript",
+    "validation",
+    "decorators",
+    "email",
+    "iban",
+    "identity",
+    "passport",
+    "phone",
+    "type-safety",
+    "data-validation",
+    "class",
+    "validators",
+    "custom-decorators",
+    "schema-validation",
+    "typescript-decorators",
+    "lightweight-validation",
+    "simple-validation",
+    "metadata",
+    "object-validation",
+    "form-validation",
+    "ts-decorators",
+    "input-validation",
+    "custom-rules"
+  ],
+  "author": "Kaike Bartolomeu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kaike2003/decoval"
+  },
+  "homepage": "https://github.com/Kaike2003/decoval",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.1",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "esbuild": "^0.25.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}
