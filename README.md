@@ -4,6 +4,7 @@
 
 **Author:** Kaike Bartolomeu  
 **NPM Package:** [`decoval`](https://www.npmjs.com/package/decoval)
+**Docs offical:** [`decoval-docs`](https://decoval-docs.vercel.app/docs)
 
 ---
 
